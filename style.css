@@ -8,15 +8,14 @@
 
 }
 
-
 body {
     font-family: 'Share Tech', sans-serif;
-    font-size: 68px;
+    font-size: 20px;
     color: white;
-   display: flex;
+    display: flex;
     justify-content: center;
-   align-items: center;
-   margin: 0;
+    align-items: center;
+    margin: 0;
     width: 100vw;
     height: 100vh;
     text-shadow: 8px 8px 10px #0000008c;
@@ -26,4 +25,86 @@ body {
  
 h1 {
     margin: 20px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 300px;
+    background: #ccc;
+
+}
+
+.menu ul {
+    display: flex;
+    color: #4d4d4f;
+    margin-right: 80px;
+    height: 15px;
+    width: 10px;
+    margin-top: 40px;
+}
+.menu ul li {
+    list-style-type: none;
+    padding: 14px;
+    color: #4d4d4f;
+
+}
+
+.personal-avatar {
+    order: 1;
+    width: 300px;
+    align-items: left;
+    justify-content: center;
+    margin-right: 80px;
+    
+}
+
+.profile-informations{
+    order: 2;
+    color: #4d4d4f;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.personal-profile-contacts dt{
+    float: left;
+    width: 80px;
+    font-weight: bold;
+}
+
+.personal-profile-contacts dd dt {
+    margin: 0 0 0 80px;
+    padding:0 0 0.5em 0;
+
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 400px;
+    gap: 10px;
+    position: fixed;
+    height: 300px;
+    background: #ccc;
+
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    position: fixed;
+    width: 80%;
+    top: 400px;
+    height: 300px;
+    background: #ccc;
 }
